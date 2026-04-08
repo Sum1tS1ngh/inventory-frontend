@@ -1,0 +1,49 @@
+{
+  "expo": {
+    "name": "StoreInventory",
+    "slug": "store-inventory",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "storeinventory",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#0F2027"
+    },
+    "android": {
+      "package": "com.storeinventory.app",
+      "permissions": [
+        "NOTIFICATIONS",
+        "RECEIVE_BOOT_COMPLETED",
+        "VIBRATE"
+      ]
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.storeinventory.app"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-secure-store",
+      [
+        "expo-notifications",
+        {
+          "color": "#FF6B35",
+          "sounds": []
+        }
+      ],
+      "expo-font"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "383716cb-bf47-4ec1-a317-2d61fc543d5c"
+      }
+    }
+  }
+}
