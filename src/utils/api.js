@@ -2,7 +2,7 @@
 // Change this to your backend IP when running on a physical Android device
 // e.g., 'http://192.168.1.100:5000' (find your PC IP with `ipconfig` or `ifconfig`)
 export const BASE_URL =
-  "https://inventory-backend-production-b886.up.railway.app"; // IMPORTANT: Replace this with your actual deployed backend URL (use HTTPS!)
+  "https://inventory-backend-production-b886.up.railway.app";
 // Physical device via Expo Go
 
 // For physical device, replace with your machine's local IP:
